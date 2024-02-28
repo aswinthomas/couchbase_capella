@@ -1,0 +1,6 @@
+{
+  "name": "couchbase-quickstart",
+  "dependencies": {
+    "couchbase": "^4.2.10"
+  }
+}
