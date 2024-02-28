@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <h1>Inventory Management System</h1>
+
+    <div id="inventoryForm">
+        <h2>Add/Update Item</h2>
+        <form id="form">
+            <input type="text" id="itemId" placeholder="Item ID" required>
+            <input type="text" id="itemName" placeholder="Item Name" required>
+            <input type="number" id="itemQuantity" placeholder="Quantity" required>
+            <input type="text" id="itemDescription" placeholder="Description">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="inventoryItems">
+        <h2>Inventory Items</h2>
+        <ul id="itemsList">
+            <!-- Inventory items will be listed here -->
+        </ul>
+    </div>
+
+    <script src="app.js"></script> <!-- Link to your JavaScript file -->
+    <script>fetchItems(); // Fetch and display items when the page loads</script>
+</body>
+</html>
