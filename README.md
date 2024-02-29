@@ -17,9 +17,25 @@ To get started with the Inventory Management System, follow these steps:
 
 - Clone the Repository: Clone this GitHub repository to your local machine.
   ```
-  git clone https://github.com/your-username/inventory-management.git
-  cd inventory-management
+  git clone https://github.com/your-username/couchbase_inventory.git
+  cd couchbase_inventory
   npm install
+  ```
+- Add a config.json
+  ```
+  {
+    "couchbase": {
+      "connectionString": "couchbases://xxxxx.cloud.couchbase.com",
+      "username": "xxxx",
+      "password": "xxxx",
+      "bucketName": "inventory",
+      "scopeName": "_default",
+      "collectionName": "items"
+    },
+    "server": {
+      "port": 3000
+    }
+  }
   ```
 
 - Run the Application: Start the backend server and frontend application.
