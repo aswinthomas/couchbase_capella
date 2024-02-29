@@ -1,5 +1,5 @@
 # Inventory Management System
-Welcome to the Inventory Management System project! This project showcases a simple inventory system designed to manage items and services efficiently. The system provides features for adding, updating, and retrieving inventory items through a user-friendly interface.
+This project showcases a simple inventory system designed to manage items and services efficiently. The system provides features for adding, updating, and retrieving inventory items through a user-friendly interface.
 
 ![SS](ss.png)
 
